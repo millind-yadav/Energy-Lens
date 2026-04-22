@@ -2,6 +2,9 @@
 
 European energy price dashboard with a FastAPI backend and a React frontend.
 
+![CI](https://github.com/millind-yadav/Energy-Lens/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 ## Highlights
 
 - Real ENTSO-E day-ahead price ingestion with SQLite caching
@@ -27,6 +30,18 @@ European energy price dashboard with a FastAPI backend and a React frontend.
 - Spread chart between two markets
 - Generation mix visualization by fuel type
 - Market insights derived from the selected window
+
+## How to use the dashboard
+
+1. Start the backend and frontend locally (see Local development).
+2. Choose a market and comparison market.
+3. Pick a date range and click Update chart.
+4. Review the price chart, spread, and generation mix panels.
+5. Use the insights panel to understand spikes and mix at peak hours.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Local development
 
